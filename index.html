@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body oncontextmenu="return false">
+    <header>
+      <a href="/" class="logo"><i class="fa fa-gift"></i> Gift House</a>
+
+      <div id="menu" class="fas fa-bars"></div>
+      <nav class="navbar">
+        <ul>
+          <li><a class="active" href="#home">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#work">Products</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="home" id="home">
+      <div id="particles-js"></div>
+
+      <div class="content">
+        <h2>
+          Dream Land <br />
+          Gift <span>House</span>
+        </h2>
+        <p>Welcome!<span class="typing-text"></span></p>
+        <a href="#about" class="btn"
+          ><span>About Us</span>
+          <i class="fas fa-arrow-circle-down"></i>
+        </a>
+        <div class="socials">
+          <ul class="social-icons">
+            
+        
+            <li>
+              <a
+                class="twitter"
+                aria-label="Twitter"
+                href="https://twitter.com/jigar_sable"
+                target="_blank"
+                ><i class="fab fa-twitter"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                class="telegram"
+                aria-label="Telegram"
+                href="https://t.me/lifecode5"
+                target="_blank"
+                ><i class="fab fa-telegram-plane"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                class="instagram"
+                aria-label="Instagram"
+                href="https://www.instagram.com/jigarsable.dev"
+                ><i class="fab fa-instagram" target="_blank"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                class="facebook"
+                aria-label="Dev"
+                href="https://dev.to/jigarsable"
+                target="_blank"
+                ><i class="fab fa-facebook"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="image">
+        <img draggable="false" class="tilt" src="images/gi.jpg" alt="" />
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <h2 class="heading"><i class="fa fa-users"></i> About <span>Us</span></h2>
+
+      <div class="row">
+        <div class="image">
+          <img draggable="false" class="tilt" src="images/shop.jpg" alt="" />
+        </div>
+        <div class="content">
+          <p>
+            <b
+              >Welcome to Dream Land Gift House, your one-stop shop for all your
+              gifting needs! </b
+            >We are a haven of thoughtful and unique gifts for every occasion,
+            ensuring you find the perfect present to brighten someone's day.
+            Whether you're searching for a birthday surprise, an anniversary
+            memento, or just a special something to show you care, Dream Land
+            Gift House has something for everyone.
+          </p>
+          <br />
+
+          <p>
+            <b
+              >More than just a gift shop, we are passionate about creating
+              lasting memories.</b
+            >
+            Our curated selection of items is carefully chosen to inspire joy,
+            laughter, and love
+          </p>
+
+          <div class="box-container">
+            <div class="box">
+              <p>
+                <span> Vision: : </span> To become the go-to destination for
+                gifts that spark joy and create lasting memories.
+              </p>
+              <p>
+                <span> Mission: : </span> To create lasting memories and
+                strengthen relationships by offering a diverse and meaningful
+                selection of gifts, personalized touches, and exceptional
+                customer service.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="work" id="work">
+      <h2 class="heading">
+        <i class="fa fa-shopping-cart"></i> Our<span>Products</span>
+      </h2>
+      <br />
+
+      <div class="viewall-container">
+        <div class="dropdown">
+          <button class="btn" onclick="toggleDropdown('friends')">
+            Friends
+            <i class="fas fa-arrow-right"></i>
+          </button>
+          <div class="dropdown-content" id="friends-products">
+            <h3>Products for Friends</h3>
+            <ul>
+              <li>
+                <img
+                  src="images/choco.jpg"
+                  alt="Product Image"
+                  class="product-image"
+                />
+                <span class="product-name">Chocolates</span>
+              </li>
+              <li>
+                <img
+                  src="images/teddy.jpg"
+                  alt="Product Image"
+                  class="product-image"
+                />
+                <span class="product-name">Teddy bear</span>
+              </li>
+              <li>
+                <img
+                  src="images/pef.jpg"
+                  alt="Product Image"
+                  class="product-image"
+                />
+                <span class="product-name">Perfume</span>
+              </li>
+              <li>
+                <img
+                  src="images/t.png"
+                  alt="Product Image"
+                  class="product-image"
+                />
+                <span class="product-name">T shirt</span>
+              </li>
+              <li>
+                <img
+                  src="images/sh.jpg"
+                  alt="Product Image"
+                  class="product-image"
+                />
+                <span class="product-name">Shoes</span>
+              </li>
+              <li>
+                <img
+                  src="images/purse.png"
+                  alt="Product Image"
+                  class="product-image"
+                />
+                <span class="product-name">Purse</span>
+              </li>
+              <!-- Add more products similarly -->
+            </ul>
+          </div>
+        </div>
+
+        <div class="dropdown">
+          <button class="btn" onclick="toggleDropdown('girlfriend')">
+            Girlfriend
+            <i class="fas fa-arrow-right"></i>
+          </button>
+          <div class="dropdown-content" id="girlfriend-products">
+            <h3>Products for Girlfriend</h3>
+            <ul>
+              <li>
+                <img
+                  src="images/choco.jpg"
+                  alt="Product Image"
+                  class="product-image"
+                />
+                <span class="product-name">Chocolates</span>
+              </li>
+              <li>
+                <img
+                  src="images/rose.jpg"
+                  alt="Product Image"
+                  class="product-image"
+                />
+                <span class="product-name">Roses</span>
+              </li>
+              <li>
+                <img
+                  src="images/watch girl.jpg"
+                  alt="Product Image"
+                  class="product-image"
+                />
+                <span class="product-name">Watch</span>
+              </li>
+              <li>
+                <img
+                  src="images/perf girl.jpg"
+                  alt="Product Image"
+                  class="product-image"
+                />
+                <span class="product-name">Perfume</span>
+              </li>
+              <li>
+                <img
+                  src="images/wall for girl.jpg"
+                  alt="Product Image"
+                  class="product-image"
+                />
+                <span class="product-name">Wallet</span>
+              </li>
+
+              <!-- Add more products similarly -->
+            </ul>
+          </div>
+        </div>
+
+        <div class="dropdown">
+          <button class="btn" onclick="toggleDropdown('boyfriend')">
+            Boyfriend
+            <i class="fas fa-arrow-right"></i>
+          </button>
+          <div class="dropdown-content" id="boyfriend-products">
+            <h3>Products for Boyfriend</h3>
+            <ul>
+              <li>
+                <img
+                  src="images/choco.jpg"
+                  alt="Product Image"
+                  class="product-image"
+                />
+                <span class="product-name">Chocolates</span>
+              </li>
+              <li>
+                <img
+                  src="images/sunglass for men.jpg"
+                  alt="Product Image"
+                  class="product-image"
+                />
+                <span class="product-name">Sunglass </span>
+              </li>
+              <li>
+                <img
+                  src="images/belt men.jpeg"
+                  alt="Product Image"
+                  class="product-image"
+                />
+                <span class="product-name">Belt</span>
+              </li>
+              <li>
+                <img
+                  src="images/cap men.jpg"
+                  alt="Product Image"
+                  class="product-image"
+                />
+                <span class="product-name">Cap</span>
+              </li>
+              <li>
+                <img
+                  src="images/purse.png"
+                  alt="Product Image"
+                  class="product-image"
+                />
+                <span class="product-name">Wallet</span>
+              </li>
+              <li>
+                <img
+                  src="images/men pef.jpg"
+                  alt="Product Image"
+                  class="product-image"
+                />
+                <span class="product-name">Perfume</span>
+              </li>
+              <!-- Add more products similarly -->
+            </ul>
+          </div>
+        </div>
+
+        <div class="dropdown">
+          <button class="btn" onclick="toggleDropdown('children')">
+            Children
+            <i class="fas fa-arrow-right"></i>
+          </button>
+          <div class="dropdown-content" id="children-products">
+            <h3>Products for Children</h3>
+            <ul>
+              <li>
+                <img
+                  src="images/book.jpg"
+                  alt="Product Image"
+                  class="product-image"
+                />
+                <span class="product-name">Notebook</span>
+              </li>
+              <li>
+                <img
+                  src="images/item.jpg"
+                  alt="Product Image"
+                  class="product-image"
+                />
+                <span class="product-name">Stationary items</span>
+              </li>
+              <li>
+                <img
+                  src="images/bag.jpg"
+                  alt="Product Image"
+                  class="product-image"
+                />
+                <span class="product-name">Bags</span>
+              </li>
+
+              <li>
+                <img
+                  src="images/shes kid.jpg"
+                  alt="Product Image"
+                  class="product-image"
+                />
+                <span class="product-name">Shoes</span>
+              </li>
+
+              <!-- Add more products similarly -->
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="popup" id="popup">
+      <img src="" alt="Popup Image" id="popup-img" />
+    </div>
+
+    <section class="contact" id="contact">
+      <h2 class="heading">
+        <i class="fas fa-headset"></i> Get in <span>Touch</span>
+      </h2>
+
+      <div class="container">
+        <div class="content">
+          <div class="image-box">
+            <img draggable="false" src="images/contact.jpg" alt="" />
+          </div>
+          <form id="contact-form">
+            <div class="form-group">
+              <div class="field">
+                <input type="text" name="name" placeholder="Name" required />
+                <i class="fas fa-user"></i>
+              </div>
+              <div class="field">
+                <input type="text" name="email" placeholder="Email" required />
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="field">
+                <input type="text" name="phone" placeholder="Phone" />
+                <i class="fas fa-phone-alt"></i>
+              </div>
+              <div class="message">
+                <textarea
+                  placeholder="Message"
+                  name="message"
+                  required
+                ></textarea>
+                <i class="fas fa-comment-dots"></i>
+              </div>
+            </div>
+            <div class="button-area">
+              <button type="submit">
+                Submit <i class="fa fa-paper-plane"></i>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3>Dream Land Gift House</h3>
+          <p>
+            📣 We want to hear from you! Your feedback is invaluable to us as we
+            strive to improve our products/services and tailor them to meet your
+            needs. Whether you've had a great experience or encountered any
+            challenges, we're eager to hear your thoughts. Help us serve you
+            better by sharing your feedback through our user-friendly feedback
+            forms, email surveys, or social media channels. Your opinions
+            matter, and we're committed to listening and taking action based on
+            your input. Together, we can make your experience with us even
+            better. Thank you for being a part of our journey!
+          </p>
+        </div>
+
+        <div class="box">
+          <h3>quick links</h3>
+          <a href="#home"><i class="fas fa-chevron-circle-right"></i> home</a>
+          <a href="#about"
+            ><i class="fas fa-chevron-circle-right"></i> about us</a
+          >
+          <a href="#skills"
+            ><i class="fas fa-chevron-circle-right"></i> skills</a
+          >
+          <a href="#work"
+            ><i class="fas fa-chevron-circle-right"></i> Product</a
+          >
+        </div>
+
+        <div class="box">
+          <h3>contact info</h3>
+          <p><i class="fas fa-phone"></i>+94 77 394 5529</p>
+          <p><i class="fas fa-envelope"></i>Madura@gmail.com</p>
+          <p><i class="fas fa-map-marked-alt"></i>Yattogoda kegalle</p>
+          <div class="share">
+          
+          
+            <a
+              href="mailto:jigarsable21@gmail.com"
+              class="fas fa-envelope"
+              aria-label="Mail"
+              target="_blank"
+            ></a>
+            <a
+              href="https://twitter.com/jigar_sable"
+              class="fab fa-twitter"
+              aria-label="Twitter"
+              target="_blank"
+            ></a>
+            <a
+              href="https://t.me/lifecode5"
+              class="fab fa-telegram-plane"
+              aria-label="Telegram"
+              target="_blank"
+            ></a>
+          </div>
+        </div>
+      </div>
+
+ 
+
+    <a
+      href="#home"
+      aria-label="ScrollTop"
+      class="fas fa-angle-up"
+      id="scroll-top"
+    ></a>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js"
+      integrity="sha512-1KbKusm/hAtkX5FScVR5G36wodIMnVd/aP04af06iyQTkD17szAMGNmxfNH+tEuFp3Og/P5G32L1qEC47CZbUQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script src="./assets/js/particles.min.js"></script>
+    <script src="./assets/js/app.js"></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"
+      integrity="sha512-SttpKhJqONuBVxbRcuH0wezjuX+BoFoli0yPsnrAADcHsQMW8rkR84ItFHGIkPvhnlRnE2FaifDOUw+EltbuHg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"
+    ></script>
+
+    <script src="./assets/js/script.js"></script>
+    <script>
+      function toggleDropdown(category) {
+        var dropdownContent = document.getElementById(category + "-products");
+        if (dropdownContent.style.display === "block") {
+          dropdownContent.style.display = "none";
+        } else {
+          closeAllDropdowns();
+          dropdownContent.style.display = "block";
+        }
+      }
+
+      function closeAllDropdowns() {
+        var dropdownContents = document.querySelectorAll(".dropdown-content");
+        dropdownContents.forEach(function (content) {
+          content.style.display = "none";
+        });
+      }
+
+      function openPopup(imageUrl) {
+        var popup = document.getElementById("popup");
+        var popupImg = document.getElementById("popup-img");
+        popupImg.src = imageUrl;
+        popup.classList.add("active");
+      }
+    </script>
+  </body>
+</html>
